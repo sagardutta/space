@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+        <groupId>com.space</groupId>
+		<artifactId>space.web</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.space</groupId>
+    <artifactId>space</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>Space</name>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.space</groupId>
+            <artifactId>space.domain</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+         <dependency>
+            <groupId>com.space</groupId>
+            <artifactId>space.security</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.space</groupId>
+            <artifactId>space.configuration</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+         <dependency>
+            <groupId>com.space</groupId>
+            <artifactId>space.services</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+     </dependencies>
+    
+    <build>
+    </build>
+</project>

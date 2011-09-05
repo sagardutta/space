@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<project>
+   
+    <parent>
+		<groupId>com.space</groupId>
+        <artifactId>space.qa</artifactId>        
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.space</groupId>
+    <artifactId>functional-test</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>functional-test</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <space.version>0.0.1-SNAPSHOT</space.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.space</groupId>
+            <artifactId>space.domain</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.space</groupId>
+            <artifactId>space.services</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <profiles>
+    </profiles>
+</project>
