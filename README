@@ -1,2 +1,14 @@
+Space
+======================
 
-This file was modified by IntelliJ IDEA 10.5.1 for binding GitHub repository
+The primary goal of the Space project is to build a application to demo the following
+
+### Technology
+Spring Framework
+Spring-Security
+MongoDB
+Spring Data Document - MongoDB
+
+### Algorithms
+Algorithms from the book [Algorithms for the Intelligent Web](http://www.manning.com/marmanis/)
+
